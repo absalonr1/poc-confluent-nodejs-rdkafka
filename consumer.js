@@ -28,11 +28,11 @@ var topic = "test-topic-aopazo"
 
 let seen = 0;
 
-const consumer = new Kafka.KafkaConsumer(
+const consumer = new Kafka.Kafkit aConsumer(
     {
         'bootstrap.servers': "pkc-pgq85.us-west-2.aws.confluent.cloud:9092",
         'sasl.username': "YLWHDZM2XQ5KUTNF",
-        'sasl.password': "CbVQkZ5/NsbS+KmvZwiZE/G9JJUvvHypm0qLAmmTUhKi/oTvDMCBLB2U2DeUkUcc",
+        'sasl.password': "xxx",
         'security.protocol': "SASL_SSL",
         'sasl.mechanisms': "PLAIN",
         'group.id': 'node-example-rdkafka-group-1',
